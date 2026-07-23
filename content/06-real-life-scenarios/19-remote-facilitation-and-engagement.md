@@ -1,0 +1,37 @@
+# Cameras Off, Nobody Talking: Facilitating a Disengaged Remote Team
+
+*A fully remote team's ceremonies have gone quiet — cameras off by default, one-word check-ins, and a retrospective where nobody says anything for the first three minutes.*
+
+## The Situation
+
+Team Driftwood at Palisade Insurance has been fully remote for two years, spread across Lagos, Warsaw, Manila, and Austin. Scrum Master Renata Osei, eight developers. Daily Scrum has settled into cameras off, people reading status directly off a ticket, no real back-and-forth. At Sprint 40's retrospective, Renata opens a Miro board with the same Start/Stop/Continue template the team has used for close to two years and asks people to add sticky notes. Three minutes of silence follow. Only four stickies appear from eight people, most of them generic — "continue: good communication."
+
+During the silence, Renata notices in the Zoom participant panel that three people's browser tabs show as unfocused. Later that day, developer Marek Nowak admits privately over Slack: "Honestly, by 4 p.m. my time I've been in calls since 8 a.m. Retro is just the thing standing between me and being done for the day."
+
+## Why This Happens
+
+- **"Zoom fatigue" is a real cognitive-load phenomenon, not laziness.** Video calls demand sustained self-monitoring — watching your own face on screen — and lack the ambient, low-effort cues an in-person room provides for free. Two years of back-to-back remote ceremonies compounds that cost.
+- **A generic retro format repeated identically for forty Sprints stops requiring real thought.** People can autopilot through Start/Stop/Continue by now, which produces exactly the generic, low-effort output Renata is seeing.
+- **Timezone spread makes some ceremonies structurally inconvenient for someone, every single time**, and chronic minor inconvenience — like Marek's 4 p.m.-after-a-full-day slot — quietly erodes engagement even when nobody complains directly.
+- **Psychological safety is genuinely harder to build and sustain remotely without deliberate effort.** Silence on a video call reads ambiguously — thinking, disengaged, distracted — in a way silence in a physical room doesn't, so a quiet team can stay quiet far longer before anyone reads it correctly.
+- **Synchronous ceremonies for every single event, run exactly as they would be in-office, aren't automatically the right default remotely.** Some coordination genuinely works better async, and defaulting to video-for-everything adds cost without adding value.
+
+## The Scrum Master's Approach
+
+1. **Name the fatigue directly and normalize it, rather than push through it.** Renata opens the next retro by stating what she's observed — "I've noticed less energy in our last few retros, and I want to check whether that's fatigue, format, timing, or something else" — instead of pretending engagement is fine while privately blaming the team.
+2. **Get real data privately before redesigning anything.** Short 1:1s, or an anonymous pulse check given the honesty risk in a group setting, ask specifically what's draining and what would help — since Marek's admission likely isn't unique, but people won't say it out loud in front of the group.
+3. **Fix timezone unfairness structurally, not just apologetically.** Renata rotates ceremony times so the least convenient slot moves between regions Sprint to Sprint instead of Manila or Austin always absorbing the cost, and consolidates where possible — does Daily Scrum need to be fully synchronous for all eight, or can the two most timezone-strained members post async with a shorter live sync reserved for blockers only?
+4. **Change the retro format specifically, since a stale, repeated template measurably contributes to the silence.** Renata retires Start/Stop/Continue for a few Sprints in favor of formats that require an active choice rather than open-ended generation — dot-voting on pain points gathered async beforehand, for instance, so people react to something concrete instead of staring at a blank board under time pressure.
+5. **Use small-group and async structures to do the work a large video call does badly.** Breakout pairs of two or three for retro brainstorming, reconvened afterward, make it far easier to speak up than addressing eight people on a grid — and pre-work submitted async before the live session means the live time gets spent discussing, not silently writing.
+6. **Address cameras-off directly, without mandating cameras.** Rather than a blanket "cameras on" policy — which tends to backfire and increase fatigue rather than engagement — Renata focuses on making the live time worth being fully present for, and asks the team to co-decide its own camera norm instead of having one imposed on it.
+7. **Track engagement as a trend and keep iterating, not a one-time fix.** After two or three Sprints of format changes, Renata asks the team directly whether it actually feels better, and treats their answer as the real measure of success — not her own sense of whether the meeting looked well-run.
+
+## Likely Outcome
+
+The pre-seeded, dot-voting retro format produces real engagement almost immediately — Sprint 41's retrospective gets input from all eight people instead of four, and Marek specifically credits the breakout-pairs structure with making him comfortable raising a dependency issue he'd been sitting on for weeks. The timezone rotation is imperfect and gets renegotiated once more before the team calls it genuinely fair. Camera use stays mixed, and Renata stops treating that as the metric that matters. The deeper fatigue doesn't fully resolve — two years of remote-only culture doesn't reverse in a month — but the ceremonies themselves become worth attending again, which is the more realistic and durable win.
+
+## Certification Exam Angle
+
+Increasingly common in both PSM and CSM material since 2020: *"A fully remote Scrum Team shows declining engagement across all Scrum events, including silence during the Sprint Retrospective. What should the Scrum Master do?"* Trap answers include mandating cameras on for every event to increase accountability (contradicts servant leadership and psychological safety, treats a symptom with a compliance rule, and is widely documented to backfire), replacing the Retrospective with a shorter status update since engagement is already low (removes the exact event designed to surface and fix this problem instead of adapting it), or assuming the team is simply unmotivated and escalating to management (skips the Scrum Master's own facilitation responsibility and misattributes a structural, format-level problem as a people problem).
+
+The correct-mindset answer recognizes declining engagement as a facilitation and format problem the Scrum Master is directly accountable for addressing, diagnoses root causes — fatigue, a stale format, timezone inequity, safety — rather than assuming disengagement is a personal failing, and redesigns the events, including using async and small-group techniques, to fit a remote context rather than forcing an in-person-shaped ceremony onto a remote team unchanged. This is core [Scrum Master service-area](../04-scrum-master-role/the-4-sm-service-areas.md) work, and it pairs closely with [scenario 13](13-sprint-review-nobody-attends.md) and [scenario 17](17-team-wants-to-abandon-scrum.md), where hollowed-out ceremonies erode trust in Scrum itself if left unaddressed.

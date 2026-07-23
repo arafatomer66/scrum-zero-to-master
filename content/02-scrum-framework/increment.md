@@ -1,0 +1,27 @@
+# The Increment
+
+*A concrete stepping stone toward the Product Goal — every Increment must meet the Definition of Done, but being Done and being released are two separate decisions.*
+
+An Increment is a concrete stepping stone toward the Product Goal. Each one is additive to every Increment that came before it, and thoroughly verified so that all the Increments together actually work as a whole — an Increment isn't a standalone deliverable sitting off to the side, it's the current state of the product, one Sprint's worth of value further along.
+
+## Multiple Increments per Sprint
+
+A Sprint isn't limited to producing exactly one Increment. Developers can create several within a single Sprint as pieces of work meet the [Definition of Done](definition-of-done.md) along the way — a Sprint doesn't have to reach its final Friday before anything counts as Done. What gets presented and inspected at [Sprint Review](sprint-review.md) is the sum of all the Increments completed during the Sprint, and that sum is what actually supports honest inspection of progress toward the Product Goal. A team that only ever produces one giant Increment at the very end of the Sprint is giving up the chance to inspect and adapt earlier, which works against the whole point of running Sprints in the first place.
+
+## Delivery doesn't wait for the Sprint to end
+
+An Increment can be delivered to stakeholders before the Sprint concludes. Sprint Review should never be treated as a gate that value has to pass through before it's allowed to reach users — that's a common misreading of the framework, and it's worth correcting directly: nothing in Scrum requires holding finished, valuable work until a scheduled meeting gives it permission to exist. If a team is capable of shipping continuously, Scrum doesn't just permit that, it fits neatly inside it. What Sprint Review is for is discussed in detail in [Sprint Review](sprint-review.md); it's an inspection and adaptation point for the Product Backlog, not a release approval step.
+
+## The Definition of Done gate
+
+Work cannot be considered part of an Increment unless it meets the team's [Definition of Done](definition-of-done.md). This is the line that separates "an Increment" from "a demo of something that looks like an Increment," and it's not a soft guideline — it's the actual definition. A Product Backlog item that's coded but untested, or tested but not reviewed, or reviewed but never run anywhere close to a production-like environment, is not part of the Increment no matter how complete it looks in a screen share. It's still an in-progress Product Backlog item. This connects directly to [Transparency](scrum-theory-pillars.md): the Definition of Done is what makes "Done" mean the same specific thing to everyone looking at the Sprint Backlog or the Increment, instead of meaning whatever the person who touched it last happened to intend.
+
+## Releasable and released are different decisions
+
+An Increment that meets the Definition of Done is, by definition, usable — which means it's releasable. But "releasable" and "actually released" are two separate decisions, made for different reasons by different people. Meeting the Definition of Done is a quality decision that belongs to the Developers. Whether and when to actually put that Increment in front of end users is a business decision that belongs to the [Product Owner](scrum-team.md), and it can be influenced by things that have nothing to do with the work's quality: a marketing launch calendar, a decision to batch several small Increments into one coherent release, a compliance or regulatory approval still pending, or simply a judgment call that this isn't the most useful moment to ship it.
+
+A concrete example makes the distinction concrete: a fintech team finishes a fully Done, DoD-meeting KYC verification flow in Sprint 14 — every check passes, it's been reviewed, it works in staging exactly as it will in production. It doesn't go live until a compliance audit clears it the following month. The work was Done in Sprint 14. The release decision, made independently by the business for reasons that have nothing to do with the engineering, happened a month later. Neither the team nor the Definition of Done failed anything by that gap — the two decisions were always separate, and treating them as separate is what lets a team keep a clean, honest Done/not-Done line without that line getting entangled in go-to-market timing they don't control.
+
+## "Done" theater and what happens when it isn't real
+
+The failure mode worth watching for is the reverse situation: something gets shown at Sprint Review as if it were an Increment, but it doesn't actually meet the Definition of Done — missing test coverage, a skipped review, a "works on my machine" state that was never verified anywhere production-like. Regardless of how convincing the walkthrough looked, that work is not an Increment. It doesn't get released, it doesn't get counted as completed Sprint work, and it goes back to the [Product Backlog](product-backlog.md) as unfinished — to be picked up, replanned, and actually finished in a future [Sprint Backlog](sprint-backlog.md). Letting undone work get counted as an Increment because it demoed well is one of the fastest ways a team's own tracking becomes dishonest, and it erodes exactly the transparency the [Definition of Done](definition-of-done.md) exists to protect.

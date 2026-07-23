@@ -45,6 +45,34 @@ const MANIFEST = [
     "title": "Sprint Planning"
   },
   {
+    "path": "02-scrum-framework/daily-scrum.md",
+    "title": "Daily Scrum"
+  },
+  {
+    "path": "02-scrum-framework/sprint-review.md",
+    "title": "Sprint Review"
+  },
+  {
+    "path": "02-scrum-framework/sprint-retrospective.md",
+    "title": "Sprint Retrospective"
+  },
+  {
+    "path": "02-scrum-framework/product-backlog.md",
+    "title": "The Product Backlog"
+  },
+  {
+    "path": "02-scrum-framework/sprint-backlog.md",
+    "title": "The Sprint Backlog"
+  },
+  {
+    "path": "02-scrum-framework/increment.md",
+    "title": "The Increment"
+  },
+  {
+    "path": "02-scrum-framework/definition-of-done.md",
+    "title": "Definition of Done"
+  },
+  {
     "path": "03-professional-scrum-competencies/00-overview.md",
     "title": "Professional Scrum Competencies: The Skill Behind the Framework"
   },
@@ -167,6 +195,54 @@ const MANIFEST = [
   {
     "path": "06-real-life-scenarios/08-scaling-from-one-team-to-five.md",
     "title": "Scaling From One Team to Five"
+  },
+  {
+    "path": "06-real-life-scenarios/09-manager-assigns-tasks-to-individuals.md",
+    "title": "A Manager Assigns Tasks to Individuals"
+  },
+  {
+    "path": "06-real-life-scenarios/10-team-conflict-between-two-senior-devs.md",
+    "title": "Team Conflict Between Two Senior Developers"
+  },
+  {
+    "path": "06-real-life-scenarios/11-fake-agile-scrumbut-organization.md",
+    "title": "\"We Do Scrum Here\" — When the Titles Changed and Nothing Else Did"
+  },
+  {
+    "path": "06-real-life-scenarios/12-underperforming-team-member.md",
+    "title": "The Developer Who Isn't Keeping Up"
+  },
+  {
+    "path": "06-real-life-scenarios/13-sprint-review-nobody-attends.md",
+    "title": "When Stakeholders Stop Showing Up to Sprint Review"
+  },
+  {
+    "path": "06-real-life-scenarios/14-po-not-available-for-the-team.md",
+    "title": "The Product Owner Who's Never in the Room"
+  },
+  {
+    "path": "06-real-life-scenarios/15-velocity-used-to-compare-teams.md",
+    "title": "The Cross-Team Velocity Leaderboard"
+  },
+  {
+    "path": "06-real-life-scenarios/16-new-scrum-master-first-30-days.md",
+    "title": "A New Scrum Master's First 30 Days"
+  },
+  {
+    "path": "06-real-life-scenarios/17-team-wants-to-abandon-scrum.md",
+    "title": "The Team Wants to Drop Scrum Entirely"
+  },
+  {
+    "path": "06-real-life-scenarios/18-handling-a-failed-sprint.md",
+    "title": "When the Sprint Goal Becomes Obsolete Mid-Sprint"
+  },
+  {
+    "path": "06-real-life-scenarios/19-remote-facilitation-and-engagement.md",
+    "title": "Cameras Off, Nobody Talking: Facilitating a Disengaged Remote Team"
+  },
+  {
+    "path": "06-real-life-scenarios/20-coaching-a-new-product-owner.md",
+    "title": "Coaching a Product Owner Who Doesn't Trust Their Own Authority"
   },
   {
     "path": "07-certifications/00-which-certification-should-i-get.md",

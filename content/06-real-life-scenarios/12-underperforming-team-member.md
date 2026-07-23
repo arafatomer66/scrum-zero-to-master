@@ -1,0 +1,38 @@
+# The Developer Who Isn't Keeping Up
+
+*One team member has quietly under-delivered for two Sprints running, and instead of anyone saying so out loud, the rest of the team has started covering for him — and starting to resent it.*
+
+## The Situation
+
+Team Nimbus builds the live-tracking module for Lighthouse Freight, a logistics platform. Five developers, two-week Sprints, velocity that's sat around 32 points for the last several quarters. Tobias Reyes has been on the team for over a year and was, until recently, one of its more reliable estimators. In Sprint 20 he forecasted 8 points and delivered 3. In Sprint 21, forecasted 8 again, delivered 2.
+
+The moment that makes it visible: Tobias is assigned "add geofence alert throttling" in Sprint 21. By day 8 of 10 it's still sitting in "In Progress" with no meaningful update in standup beyond "still working through it." At 9 p.m. that night, teammate Naledi Mokoena quietly picks it up herself and finishes it, without mentioning it in the next Daily Scrum. She vents in a Slack DM to another developer: "I'm not carrying him again next Sprint." At Sprint Review, Product Owner Grace Liu asks casually where the throttling feature landed. Tobias says "almost there" — which isn't true; Naledi finished it two days earlier and nobody corrected the record. Scrum Master Devon Park watches this exchange and realizes the real problem isn't just Tobias's output — it's that the team's honesty about status has started degrading around him.
+
+## Why This Happens
+
+A single underperforming Sprint is normal variance. A pattern across two or more, absorbed silently by teammates, is a different and more structural problem:
+
+- **The cause is genuinely unknown until someone asks.** Underdelivery can come from a personal crisis, burnout, a skill gap on unfamiliar technology, disengagement, or an unclear handoff — and each of those calls for a completely different response. Assuming the cause from the sprint board alone is a guess dressed up as a diagnosis.
+- **Self-managing teams often lack a norm for surfacing struggle directly**, so the awkwardness of saying "I'm stuck and behind" out loud gets avoided by quietly absorbing the gap instead — which feels kind in the short term and corrosive by the third occurrence.
+- **A Daily Scrum that's drifted toward status reporting hides exactly this kind of gap**, because "still working through it" sounds like progress even when it isn't, and nobody probes further in a room built for quick updates rather than real coordination.
+- **Silent resentment compounds precisely because it's silent.** Naledi's frustration isn't visible to Tobias, to Grace, or even fully to Devon until it leaks sideways in a Slack DM — by which point it has already started corroding trust between two teammates who used to work well together.
+
+## The Scrum Master's Approach
+
+1. **Talk to Tobias privately and first, before acting on any assumption.** Devon opens with curiosity, not accusation: "The last two Sprints have looked tougher for you than usual — what's going on?" This is a private conversation, not something raised in a ceremony, because the goal is understanding, not public accountability.
+2. **Distinguish capability, capacity, and commitment before choosing a response.** Devon listens for which of three very different problems this is: a personal circumstance eating Tobias's attention, a real skill gap on the geofencing service he'd never touched before this reassignment, or genuine disengagement — each needs a different intervention, and guessing wrong wastes the conversation.
+3. **Talk to Naledi and the others who've been quietly compensating.** Separately, Devon acknowledges what he's noticed and reframes the norm: being stuck should be said out loud at the Daily Scrum, not solved silently at 9 p.m., because silent compensation hides real team capacity from planning and breeds exactly the resentment now surfacing.
+4. **Rebuild the Daily Scrum norm without singling Tobias out.** Devon coaches the whole team, generally, that "I'm blocked" or "I'm behind" is useful information the team needs in real time — not a confession to be avoided — since the team can only self-manage around problems it can actually see.
+5. **If it's a skill gap, arrange real support, not a lecture.** Tobias gets paired with senior developer Priyanka for the geofencing work over the next two Sprints — not run through Devon personally, but connected deliberately, which is a [coaching, not mentoring or teaching, distinction](../04-scrum-master-role/coaching-vs-mentoring-vs-teaching.md) Devon has to get right: he facilitates the support structure rather than becoming Tobias's technical trainer himself.
+6. **If, after genuine support, the pattern doesn't improve, recognize the limits of the Scrum Master role.** Devon is not Tobias's people manager and has no performance-management authority — if disengagement or unaddressed personal issues persist despite real support, that becomes a conversation Devon raises with Tobias's manager as an organizational matter, not something he tries to resolve unilaterally inside Scrum ceremonies.
+7. **Bring the team-level pattern back to retro, once the individual conversations have already happened.** Devon frames it as a system question, not a Tobias question: "How do we want to surface being stuck earlier, before it costs someone else a late night?" — turning a one-person problem into a durable team norm.
+
+## Likely Outcome
+
+Tobias admits, once asked directly and privately, that he'd never touched the geofencing service before the Sprint 20 reassignment and felt embarrassed to say so given how senior he's perceived to be on the team. Paired with Priyanka for three Sprints, his output recovers close to his usual baseline by Sprint 24. The team's covering pattern doesn't dissolve immediately — Devon has to run an explicit retro exercise naming it before it visibly changes — but Naledi's resentment eases once she sees a real fix, not just an apology. Not every version of this story resolves this cleanly: if the root cause had turned out to be sustained disengagement with no improvement despite genuine support, this would have become a manager-level conversation Devon could raise but not solve from inside the Scrum Master role.
+
+## Certification Exam Angle
+
+A typical scenario question: *"A Developer has significantly underperformed for two consecutive Sprints, and teammates have begun silently completing their work without raising it. What should the Scrum Master do?"* Trap answers include: report the developer's performance to their manager right away (bypasses self-management and treats a coaching problem as a discipline problem before understanding the cause), quietly reassign the underperforming developer's items to others during Sprint Planning to protect velocity (formalizes and hides exactly the covering pattern that's already damaging trust), or raise it publicly in the Daily Scrum to increase peer accountability (violates psychological safety and turns a coordination event into a performance review).
+
+The correct-mindset answer centers on a private, curious conversation to understand root cause first, coaching the team toward the transparency that would surface this kind of gap naturally and early, and clearly distinguishing what's within the Scrum Master's coaching remit from what requires escalation to people management. See [scenario 03](03-daily-scrum-becomes-status-report-to-manager.md) for the related failure mode of a Daily Scrum that's stopped functioning as real coordination, and [scenario 01](01-team-missing-every-sprint-goal.md) for how a repeated pattern gets made visible with data rather than assumption.
