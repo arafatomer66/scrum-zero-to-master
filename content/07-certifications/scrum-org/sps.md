@@ -12,7 +12,7 @@ It assumes you already have solid single-team Scrum fluency — SPS builds Nexus
 
 ## Format & Logistics
 
-SPS follows Scrum.org's standard specialist-exam format: open-book, timed, taken through Scrum.org's own platform with no proctor and no mandatory training course required beforehand. Multiple choice, multiple answer, and true/false questions, historically in the range of 25 to 30 questions and around 60 minutes, with a passing bar in the mid-to-high 80s percent, consistent with Scrum.org's other assessments. Pricing sits in a comparable tier to Scrum.org's other specialist credentials. **Verify the current question count, time limit, passing score, and price directly on scrum.org before registering** — these figures shift periodically and this guide's numbers are a planning ballpark, not a guaranteed current fact. Like every Scrum.org credential, SPS does not expire and carries no renewal fee once earned.
+SPS follows Scrum.org's standard specialist-exam format: open-book, timed, taken through Scrum.org's own platform with no proctor and no mandatory training course required beforehand. Multiple choice, multiple answer, and true/false questions, historically in the range of 40 questions and around 60 minutes, with a passing bar in the mid-to-high 80s percent, consistent with Scrum.org's other assessments. Pricing sits in a comparable tier to Scrum.org's other specialist credentials. **Verify the current question count, time limit, passing score, and price directly on scrum.org before registering** — these figures shift periodically and this guide's numbers are a planning ballpark, not a guaranteed current fact. Like every Scrum.org credential, SPS does not expire and carries no renewal fee once earned.
 
 ## What It Actually Tests
 

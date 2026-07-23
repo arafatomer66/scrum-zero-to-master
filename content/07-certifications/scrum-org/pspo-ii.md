@@ -13,7 +13,7 @@ It is not the right next step for someone who passed PSPO I last month with no p
 ## Format & Logistics
 
 - **Format:** Same open-book, own-platform, no-mandatory-course model as PSPO I — delivered through Scrum.org's assessment platform, no proctor, no testing center. Multiple choice, multiple answer, and true/false questions, but denser, longer scenario setups than PSPO I.
-- **Length:** Historically fewer questions than PSPO I but with more time per question and heavier scenario framing, broadly comparable to PSM II's format. **Verify the current question count and time limit on scrum.org before registering** — Scrum.org periodically adjusts these.
+- **Length:** Historically fewer questions than PSPO I but with more time per question and heavier scenario framing — a denser scenario format like PSM II's, though not necessarily the same question count (some sources put PSPO II closer to 40 questions, more than PSM II's ~30). **Verify the current question count and time limit on scrum.org before registering** — Scrum.org periodically adjusts these.
 - **Passing score:** Around 85%, consistent with Scrum.org's other Professional Scrum assessments.
 - **Cost:** A single flat per-attempt fee, higher than PSPO I, paid directly to Scrum.org. **Verify the current price on scrum.org** before budgeting — do not assume it matches PSPO I's price tier.
 - **Retake policy:** Purchase another attempt if you don't pass. No mandatory waiting period, but repeated failures are a signal you need more real product-ownership exposure, not more attempts at the same underlying gap.

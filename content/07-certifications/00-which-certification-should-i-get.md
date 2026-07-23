@@ -23,7 +23,7 @@ The rest of this page goes deep on the **Scrum Master track** specifically, sinc
 
 ## The core philosophical split (Scrum Master track)
 
-Before comparing individual Scrum Master credentials, understand the one structural difference that explains most of the rest: **Scrum.org sells assessments; Scrum Alliance and Scaled Agile sell training with a certification attached.** This same split holds true across Scrum.org's entire catalog, not just PSM — PSPO, PSD (partially), PSK, PSU, PSFS, SPS, and PAL-E/PAL-EBM are all self-study, open-book exams with no mandatory course.
+Before comparing individual Scrum Master credentials, understand the one structural difference that explains most of the rest: **Scrum.org sells assessments; Scrum Alliance and Scaled Agile sell training with a certification attached.** This same split holds true across Scrum.org's entire catalog, not just PSM — PSPO, PSD, PSK, PSU, PSFS, SPS, and PAL-E/PAL-EBM are all self-study, open-book exams with no mandatory course. (PSD is easy to mistake as an exception since a strong hands-on companion course exists for it — but that course is optional, the same way PSM's and PSPO's companion courses are optional.)
 
 - **Scrum.org** ([PSM I](scrum-org/psm-i.md), [PSM II](scrum-org/psm-ii.md), [PSM III](scrum-org/psm-iii.md)) requires no course. You study on your own — the Scrum Guide, this repo, the free Scrum Open Assessments — and sit an open-book exam whenever you're ready, on Scrum.org's own platform. Nobody reviews your application. You prove knowledge directly, and the credential never expires or requires renewal fees. This rewards self-directed learners and is dramatically cheaper if you're paying out of pocket.
 - **Scrum Alliance** ([CSM](scrum-alliance/csm.md), [A-CSM](scrum-alliance/a-csm.md), [CSP-SM](scrum-alliance/csp-sm.md)) requires a mandatory paid course taught by a Certified Scrum Trainer before you're even eligible to sit the (comparatively easier) exam. The credential itself expires and requires periodic renewal through SEUs (Scrum Education Units) and a renewal fee. You're paying primarily for the live training experience and the Scrum Alliance brand's market recognition.
@@ -38,13 +38,13 @@ Neither philosophy is objectively "more rigorous" in every sense — Scrum.org's
 - **Consultancies and agile-coaching-adjacent roles** tend to value the advanced tiers — [PSM II](scrum-org/psm-ii.md)/[PSM III](scrum-org/psm-iii.md), [A-CSM](scrum-alliance/a-csm.md)/[CSP-SM](scrum-alliance/csp-sm.md) — as evidence of depth beyond entry-level knowledge.
 - **Traditional enterprises with an established L&D budget** often default to CSM specifically because it's the credential their HR system already knows how to procure.
 - **Product-focused roles** should look at the Product Owner track directly rather than trying to map an SM-track decision onto it — [PSPO I](scrum-org/pspo-i.md) is the equivalent entry point, with no Scrum Alliance/SAFe Product Owner equivalent covered in this guide.
-- **Developers wanting a technical credential** should go straight to [PSD](scrum-org/psd.md) — there's no "which body" decision here, only whether you're ready to commit to its mandatory hands-on course.
+- **Developers wanting a technical credential** should go straight to [PSD](scrum-org/psd.md) — there's no "which body" decision here, and no mandatory course to commit to; it's self-study like PSM and PSPO, just testing hands-on technical practice instead of facilitation or product skill.
 
 ## Cost tiers (relative, not exact)
 
-- **Cheapest:** PSM I, PSPO I, PSK, PSU, PSFS, SPS, PAL-E — all single flat-fee, no-mandatory-course exams at Scrum.org's entry tier.
+- **Cheapest:** PSM I, PSPO I, PSD, PSK, PSU, PSFS, SPS, PAL-E — all single flat-fee, no-mandatory-course exams at Scrum.org's entry tier (PSD only gets pricier if you opt into its optional companion course).
 - **Low-mid:** PSM II, PSPO II, PAL-EBM — same no-course model, priced higher per attempt.
-- **Mid:** CSM — mandatory course fee (typically the largest single line item) plus a comparatively minor exam and annual renewal cost. SAFe Scrum Master follows a similar structure. PSD also lands here or higher, since its mandatory 3-day hands-on course is priced closer to a live-training credential than a pure exam.
+- **Mid:** CSM — mandatory course fee (typically the largest single line item) plus a comparatively minor exam and annual renewal cost. SAFe Scrum Master follows a similar structure. (PSD's assessment fee itself sits at the cheap entry tier alongside PSM I/PSPO I — it only climbs into this band if you opt into its companion course, which is optional.)
 - **Mid-high:** A-CSM — requires holding CSM first, plus another mandatory advanced course.
 - **High:** PSM III, PSPO III — the most expensive Scrum.org tiers, reflecting human-evaluated components. SAFe Advanced Scrum Master sits in a comparable band.
 - **Highest / most cumulative:** CSP-SM — requires stacking CSM and A-CSM plus its own application and fee.

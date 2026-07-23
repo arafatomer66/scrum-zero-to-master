@@ -29,7 +29,7 @@ Exact prices, question counts, and exam lengths change over time and vary by reg
 
 | Certification | Issuing Body | Prerequisite | Format | Renewal | Best For |
 |---|---|---|---|---|---|
-| [PSD](scrum-org/psd.md) | Scrum.org | A mandatory licensed 3-day hands-on PSD course — the one Scrum.org cert with a real training gate. | Course (hands-on, codebase/kata exercises) + assessment. | None — never expires. | Developers wanting the most directly technical Scrum credential — TDD, CI, refactoring, managing technical debt, all framed through Scrum. |
+| [PSD](scrum-org/psd.md) | Scrum.org | None. No mandatory course (a hands-on companion course exists and is strong prep, but is optional — verify current details on scrum.org). | Self-study, open-book online exam, same delivery model as PSM I/PSPO I. | None — never expires. | Developers wanting the most directly technical Scrum credential — TDD, CI, refactoring, managing technical debt, all framed through Scrum. |
 
 ## Specialist tracks
 
@@ -50,7 +50,7 @@ Exact prices, question counts, and exam lengths change over time and vary by reg
 
 ## Reading the table
 
-- **Format column** is the fastest way to see the core philosophical split covered in [which certification should I get](00-which-certification-should-i-get.md): almost every Scrum.org credential (PSD is the one exception) is a self-study exam with no mandatory course; every Scrum Alliance and SAFe credential requires a paid, instructor-led course as a gate before you can even sit the assessment.
+- **Format column** is the fastest way to see the core philosophical split covered in [which certification should I get](00-which-certification-should-i-get.md): every Scrum.org credential, including PSD, is a self-study exam with no mandatory course; every Scrum Alliance and SAFe credential requires a paid, instructor-led course as a gate before you can even sit the assessment.
 - **Renewal** is the other structural divide: Scrum.org credentials are earned once and never expire; Scrum Alliance and SAFe credentials require ongoing renewal (SEUs and fees, or annual terms) to stay "current."
 - Treat every specific number in this table as approximate and **verify current details on the issuing body's own site before registering or budgeting**.
 
