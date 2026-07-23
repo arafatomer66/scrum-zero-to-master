@@ -21,6 +21,10 @@ const MANIFEST = [
     "title": "Empiricism and Lean Thinking"
   },
   {
+    "path": "01-agile-foundations/history-of-scrum.md",
+    "title": "The History of Scrum"
+  },
+  {
     "path": "02-scrum-framework/scrum-values.md",
     "title": "Scrum Values"
   },
@@ -31,6 +35,14 @@ const MANIFEST = [
   {
     "path": "02-scrum-framework/scrum-team.md",
     "title": "The Scrum Team"
+  },
+  {
+    "path": "02-scrum-framework/sprint.md",
+    "title": "The Sprint"
+  },
+  {
+    "path": "02-scrum-framework/sprint-planning.md",
+    "title": "Sprint Planning"
   },
   {
     "path": "03-professional-scrum-competencies/00-overview.md",
@@ -151,6 +163,10 @@ const MANIFEST = [
   {
     "path": "06-real-life-scenarios/07-retro-that-never-changes-anything.md",
     "title": "The Retro That Never Changes Anything"
+  },
+  {
+    "path": "06-real-life-scenarios/08-scaling-from-one-team-to-five.md",
+    "title": "Scaling From One Team to Five"
   },
   {
     "path": "07-certifications/00-which-certification-should-i-get.md",
